@@ -8,59 +8,74 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap" rel="stylesheet">
+
 
     <title>Ajit</title>
 </head>
+<style>
+   
+    
+</style>
 
 <body class="bg-black">
-    <div class=" box w-full h-20  bg-black"  id="home">
+    <div class=" box w-full h-20  bg-black" id="home">
         <div class="md:p-8 ml-10 mt-10 md:ml-0 md:mt-0 inline-block justify-between md:flex  ">
 
- 
+
             <a href="" class="ml-3">
                 <div class="flex justify-between md:inline-block">
-                  <div class="flex justify-end md:inline">  
-                <h1 class="text-green-500 font-semibold md:text-2xl text-4xl cursor-pointer mb-10 ">
-                    DE_project
-                </h1>
-            </div>
-           
+                    <div class="flex justify-end md:inline">
+                        <h1 class="text-green-500 font-semibold md:text-2xl text-4xl cursor-pointer mb-10 "
+                            style="font-family: 'Edu QLD Beginner', cursive;">
+                            DE_project
+                        </h1>
+                    </div>
 
-                <div class="md:opacity-0 opacity-0 ml-20 mt-2" onclick="menu(this)">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-orange-50" fill="none" viewBox="0 0 24 24"  stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                      </svg>
+
+                    <div class="md:opacity-0 opacity-0 ml-20 mt-2" onclick="menu(this)">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-orange-50" fill="none"
+                            viewBox="0 0 24 24" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </div>
                 </div>
-            </div>
             </a>
 
-          
+
             <div class="mt-2 ml-5 md:ml-0 md:opacity-100 opacity-0  bg-slate-500 md:bg-opacity-0 " id="ab">
-                <ul class="inline-block md:flex gap-10 space-y-5 md:space-y-0  text-white">
+                <ul class="inline-block md:flex gap-10 space-y-5 md:space-y-0  text-white "
+                    style="font-family: 'Edu QLD Beginner', cursive;">
 
                     <li
                         class=" box text-white md:hover:bg-green-500  md:hover:text-gray-900 px-6 md:rounded-lg border-green-400 transition duration-500 ease-out hover:border-b-2 md:border-0  ">
-                        <a href="#home" class="text-1xl  uppercase font-sans ">Home</a>
+                        <a href="#home" class="text-1xl  uppercase ">Home</a>
                     </li>
 
                     <li
                         class=" box text-white md:hover:bg-green-500  md:hover:text-gray-900 px-6 md:rounded-lg border-green-400 transition duration-500 ease-out hover:border-b-2 md:border-0  ">
-                        <a href="#about" class="text-1xl font-sans uppercase ">About</a>
+                        <a href="#about" class="text-1xl  uppercase ">About</a>
                     </li>
 
                     <li
                         class=" box text-white md:hover:bg-green-500  md:hover:text-gray-900 px-6 md:rounded-lg border-green-400 transition duration-500 ease-out hover:border-b-2 md:border-0  ">
-                        <a href="#contact" class="text-1xl font-sans uppercase ">Contact</a>
+                        <a href="#contact" class="text-1xl  uppercase ">Contact</a>
                     </li>
 
                     <li
                         class=" box text-white md:hover:bg-green-500  md:hover:text-gray-900 px-6 md:rounded-lg border-green-400 transition duration-500 ease-out hover:border-b-2 md:border-0  ">
-                        <a href="#services" class="text-1xl font-sans uppercase ">services</a>
+                        <a href="#services" class="text-1xl  uppercase ">services</a>
                     </li>
 
                     <li
                         class=" box text-white md:hover:bg-green-500  md:hover:text-gray-900 px-6 md:rounded-lg border-green-400 transition duration-500 ease-out hover:border-b-2 md:border-0  ">
-                        <a href="#" class="text-1xl font-sans uppercase ">Blog</a>
+                        <a href="#" class="text-1xl  uppercase ">Blog</a>
                     </li>
 
 
@@ -68,22 +83,24 @@
                 </ul>
             </div>
 
-            <div class="ml-8 md:ml-0 md:opacity-100 opacity-0" id="bc" >
+            <div class="ml-8 md:ml-0 md:opacity-100 opacity-0">
                 <div class=" md:flex gap-10 mt-10 md:mt-0">
 
-                  
-                      <span
-                        class="box md:border-2 md:border-green-500 px-4 text-green-500 font-medium rounded-lg p-1 hover:bg-green-500 hover:text-black sm:ml-6 ">
-                       <a href="login.html">Login</a></span>
-               
 
                     <span
-                        class="box md:border-2 md:border-green-500 px-4 text-green-500 font-medium rounded-lg p-1 hover:bg-green-500 hover:text-black ">
+                        class="box md:border-2 md:border-green-500 px-4 text-green-500 font-medium rounded-lg p-1 hover:bg-green-500 hover:text-black sm:ml-6 "
+                        style="font-family: 'Edu QLD Beginner', cursive;">
+                        <a href="login.html">Login</a></span>
+
+
+                    <span
+                        class="box md:border-2 md:border-green-500 px-4 text-green-500 font-medium rounded-lg p-1 hover:bg-green-500 hover:text-black "
+                        style="font-family: 'Edu QLD Beginner', cursive;">
                         <a href="sign.html">Sign up</a></span>
-                       </span>
+                    </span>
                 </div>
             </div>
-        
+
 
         </div>
     </div>
@@ -91,41 +108,43 @@
 
 
 
-    <div class=" md:mt-32 mt-20 md:p-9 md:ml-28 ml-10 " >
+    <div class=" md:mt-32 mt-20 md:p-9 md:ml-28 ml-10 md:mb-36 md-0">
 
         <div>
             <div class="flex justify-start ">
-                <div class="">
+                <div   style="font-family: 'Edu QLD Beginner', cursive;">
                     <div>
-                        <span class="text-gray-100 md:text-9xl text-5xl mb-96 font-semibold font-sans  ">Mobile <span
-                                class="md:text-9xl text-4xl text-white-500 capitalize mt-16 md:mt-0 box px-3 bg-green-600 text-black rounded-3xl hover:scale-90 transition ease-out duration-500">Phone</span></span>
+                        <span class="text-gray-100 md:text-9xl text-5xl mb-96 font-semibold   ">Mobile <span
+                                class="md:text-9xl text-4xl text-white-500 capitalize mt-16 md:mt-0 box px-3 bg-green-600 text-black rounded-3xl">Phone</span></span>
                         <div
                             class="md:mt-10 mt-5 mb-5 md:border-b-8 border-b-4 md:w-32 w-24  hover:w-96 hover:border-green-500 transition ease-liner duration-1000  border-green-500">
                         </div>
                     </div>
-                    <span
-                        class="text-white md:text-8xl text-4xl md:mt-10 mt-5 font-semibold font-sans mb-2 md:mb-0 ">Survey
+                    <span class="text-white md:text-8xl text-4xl md:mt-10 mt-5 font-semibold  mb-2 md:mb-0 ">Survey
                         And </span>
 
-                    <span class="text-white md:text-8xl text-4xl mb-3 font-semibold font-sans  "> Suggestions</span>
+                    <span class="text-white md:text-8xl text-4xl mb-3 font-semibold   "> Suggestions</span>
                 </div>
+
             </div>
         </div>
     </div>
 
 
 
-    <div class="md:mt-36 mt-8 w-full h-80 md:p-20 p-10" id="services">
+    <div class=" mt-8 w-full h-80 md:p-20 p-10" id="services">
 
         <div class="md:ml-12 mb-14">
-            <h1 class="text-white md:text-7xl text-5xl font-semibold ">Servic<span class="text-green-500">es</span></h1>
+            <h1 class="text-white md:text-7xl text-5xl font-semibold "
+                style="font-family: 'Edu QLD Beginner', cursive;">Servic<span class="text-green-500">es</span></h1>
         </div>
 
 
 
         <!--gaming cards-->
         <div class="md:ml-12 ">
-            <h1 class="text-white md:text-2xl text-3xl font-extralight ">Gaming</h1>
+            <h1 class="text-white md:text-2xl text-3xl font-extralight "
+                style="font-family: 'Edu QLD Beginner', cursive;">Gaming</h1>
         </div>
 
         <div class=" grid md:grid-cols-3 gap-20 md:p-10 p-5 mt-10 md:mt-0">
@@ -308,7 +327,8 @@
 
         <!--best camera card-->
         <div class="md:ml-12 mt-8 md:mt-0">
-            <h1 class=" md:text-2xl text-3xl font-extralight  text-white ">Best camera</h1>
+            <h1 class=" md:text-2xl text-3xl font-extralight  text-white "
+                style="font-family: 'Edu QLD Beginner', cursive;">Best camera</h1>
         </div>
 
 
@@ -495,7 +515,8 @@
 
         <!--best security phone card-->
         <div class="md:ml-12 mt-8 md:mt-0">
-            <h1 class=" md:text-2xl text-3xl font-extralight  text-white ">Best secure phone</h1>
+            <h1 class=" md:text-2xl text-3xl font-extralight  text-white "
+                style="font-family: 'Edu QLD Beginner', cursive;">Best secure phone</h1>
         </div>
 
 
@@ -685,7 +706,8 @@
         <div class="md:p-10 p-5" id="about">
 
             <div class="md:mb-10 mb-2">
-                <h1 class="text-white md:text-6xl font-semibold  text-5xl ">About <span class="text-green-500">us</span>
+                <h1 class="text-white md:text-6xl font-semibold  text-5xl "
+                    style="font-family: 'Edu QLD Beginner', cursive;">About <span class="text-green-500">us</span>
                 </h1>
             </div>
 
@@ -700,14 +722,16 @@
 
                                     </div>
                                     <div class="md:flex justify-end">
-                                        <h1 class="text-white md:text-5xl text-3xl font-sans">Vision <span
+                                        <h1 class="text-white md:text-5xl text-3xl "
+                                            style="font-family: 'Edu QLD Beginner', cursive;">Vision <span
                                                 class="text-green-500">our</span></h1>
                                     </div>
                                 </div>
 
                             </div>
                             <div class="md:mr-20 ">
-                                <p class="text-white font md:text-2xl text-xm text-justify">Lorem, ipsum dolor sit amet
+                                <p class="text-white font md:text-2xl text-xm text-justify"
+                                    style="font-family: 'Edu QLD Beginner', cursive;">Lorem, ipsum dolor sit amet
                                     consectetur
                                     adipisicing elit. Modi ad sit harum hic doloremque illo iste nobis obcaecati quidem,
                                     expedita aliquam voluptatibus ab quas dignissimos unde a? Consequatur veritatis rem
@@ -715,7 +739,8 @@
                             </div>
                             <div class="mt-8 ">
                                 <button
-                                    class="text-black box md:py-2 py-1 md:px-3 px-2 md:text-xl bg-green-400 font-semibold text-xs rounded-lg">show
+                                    class="text-black box md:py-2 py-1 md:px-3 px-2 md:text-xl bg-green-400 font-semibold text-xs rounded-lg"
+                                    style="font-family: 'Edu QLD Beginner', cursive;">show
                                     more</button>
                             </div>
                         </div>
@@ -748,14 +773,16 @@
                             <div class="md:flex md:justify-start ">
 
                                 <div>
-                                    <h1 class="text-white md:text-5xl text-3xl font-sans">Mision <span
+                                    <h1 class="text-white md:text-5xl text-3xl font-sans"
+                                        style="font-family: 'Edu QLD Beginner', cursive;">Mision <span
                                             class="text-green-500">our</span></h1>
                                 </div>
                             </div>
 
                         </div>
                         <div class="md:mr-28">
-                            <p class="text-white font md:text-2xl text-xm text-justify">Lorem, ipsum dolor sit amet
+                            <p class="text-white font md:text-2xl text-xm text-justify"
+                                style="font-family: 'Edu QLD Beginner', cursive;">Lorem, ipsum dolor sit amet
                                 consectetur
                                 adipisicing elit. Modi ad sit harum hic doloremque illo iste nobis obcaecati quidem,
                                 expedita aliquam voluptatibus ab quas dignissimos unde a? Consequatur veritatis rem sed
@@ -763,7 +790,8 @@
                         </div>
                         <div class="mt-8 ">
                             <button
-                                class="text-black box md:py-2 py-1 md:px-3 px-2 md:text-xl bg-green-400 font-semibold text-xs rounded-lg">show
+                                class="text-black box md:py-2 py-1 md:px-3 px-2 md:text-xl bg-green-400 font-semibold text-xs rounded-lg"
+                                style="font-family: 'Edu QLD Beginner', cursive;">show
                                 more</button>
                         </div>
                     </div>
@@ -781,7 +809,8 @@
         <div class="md:mt-10 mt-20   ">
             <div class="md:ml-10 ml-0 mb-20 md:mb-0 ">
                 <div class="mb-7 flex justify-start ">
-                    <h1 class="md:text-7xl text-6xl text-white">Team Mem<span class="text-green-500 mt-0">bers</span>
+                    <h1 class="md:text-7xl text-6xl text-white" style="font-family: 'Edu QLD Beginner', cursive;">Team
+                        Mem<span class="text-green-500 mt-0">bers</span>
                     </h1>
                 </div>
             </div>
@@ -795,11 +824,13 @@
                         </div>
 
                         <div class=" mt-7">
-                            <div class="text-white text-2xl  text-center ">
+                            <div class="text-white text-2xl  text-center "
+                                style="font-family: 'Edu QLD Beginner', cursive;">
                                 leader
 
                             </div>
-                            <div class="text-white text-3xl text-center mt-3">
+                            <div class="text-white text-3xl text-center mt-3"
+                                style="font-family: 'Edu QLD Beginner', cursive;">
                                 <h1>Vaghela</h1>
                                 <h2 class="mt-1">Ajitkumar</h2>
                             </div>
@@ -866,54 +897,211 @@
             </div>
         </div>
 
-        <div class="mt-20 mb-48" id="contact">
+        <div class="mt-28 ">
+            <div>
+                <div   style="font-family: 'Edu QLD Beginner', cursive;">
+                    <h1  class="text-white text-6xl flex justify-center items-center ">New<span class="text-green-500">    Update</span></h1>
+                </div>
+
+                <div class=" md:mt-28 mt-20  w-full h-96 ">
+                    
+   
+                    <div class="swiper mySwiper ">
+                        <div class="swiper-wrapper ">
+                          <div class="swiper-slide ">
+                            <div class="box w-full h-30 "> 
+                                <div class="md:flex md:justify-evenly md:items-center inline-block">
+                                    <div class="" style="font-family: 'Edu QLD Beginner', cursive;" >
+                                        <div class=" mb-5">
+                                            <h1 class="text-black text-xs box px-3  bg-green-500 font-bold ">New 1</h1>
+                                        </div>
+                                        <div class="">
+                                            <h1 class="text-green-500 font-semibold md:text-6xl text-4xl">Google</h1>
+                                        </div>
+                                        <div class="mt-5">
+                                            <p class="box md:w-96 w-full  text-white text-justify md:text-xl text-xm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quia velit
+                                                nostrum omnis! Dolores atque sed quisquam natus. Suscipit officia deserunt
+                                                accusamus voluptates. Illum veritatis beatae vel sapiente laudantium est.</p>
+                                        </div>
+                                        <div class="mt-5">
+                                          <button class="box px-3 bg-green-500 rounded-md md:text-2xl text-xl">more</button>
+                                          </div>
+
+                                         
+                                   </div>
+                                    <div class="md:mt-0 mt-10 flex justify-center items-center md:inline-block">
+                                        <img src="./src/assets/google.png" class="md:w-56 w-32" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                          </div>
+
+
+
+                          <div class="swiper-slide">
+
+                            <div class="box md:w-full  md:h-30 h-10 ">
+                                <div class="md:flex md:justify-evenly md:items-center">
+                                    <div class="" style="font-family: 'Edu QLD Beginner', cursive;" >
+                                        <div class=" mb-5">
+                                            <h1 class="text-black text-xs box px-3  bg-sky-500 font-bold ">New 1</h1>
+                                        </div>
+                                        <div class="">
+                                            <h1 class="text-sky-500 font-semibold md:text-6xl text-4xl">Playstore</h1>
+                                        </div>
+                                        <div class="mt-5">
+                                            <p class="box md:w-96 w-full text-white text-justify md:text-xl text-xm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quia velit
+                                                nostrum omnis! Dolores atque sed quisquam natus. Suscipit officia deserunt
+                                                accusamus voluptates. Illum veritatis beatae vel sapiente laudantium est.</p>
+                                        </div>
+                                        <div class="mt-5">
+                                          <button class="box px-3 bg-sky-500 rounded-md md:text-2xl text-xl">more</button>
+                                          </div>
+
+                                         
+                                   </div>
+                                    <div class="md:mt-0 mt-10 flex justify-center items-center md:inline-block">
+                                        <img src="./src/assets/google-play.png" class="md:w-64 w-32" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+
+
+                          <div class="swiper-slide">
+
+                            <div class="box w-full h-30 ">
+                                <div class="md:flex md:justify-evenly md:items-center">
+                                    <div class="" style="font-family: 'Edu QLD Beginner', cursive;" >
+                                        <div class=" mb-5">
+                                            <h1 class="text-black text-xs box px-3  bg-red-500 font-bold ">New 1</h1>
+                                        </div>
+                                        <div class="">
+                                            <h1 class="text-red-500 font-semibold md:text-6xl text-4xl">Mail</h1>
+                                        </div>
+                                        <div class="mt-5">
+                                            <p class="box md:w-96 w-full  text-white text-justify md:text-xl text-xm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quia velit
+                                                nostrum omnis! Dolores atque sed quisquam natus. Suscipit officia deserunt
+                                                accusamus voluptates. Illum veritatis beatae vel sapiente laudantium est.</p>
+                                        </div>
+                                        <div class="mt-5">
+                                          <button class="box px-3 bg-red-500 rounded-md md:text-2xl text-xl">more</button>
+                                          </div>
+
+                                         
+                                   </div>
+                                    <div class="md:mt-0 mt-10 flex justify-center items-center md:inline-block">
+                                        <img src="./src/assets/gmail.png" class="md:w-56 w-32" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+
+
+
+                          <div class="swiper-slide">
+
+
+                            <div class="box w-full h-30 ">
+                                <div class="md:flex md:justify-evenly md:items-center">
+                                    <div class="" style="font-family: 'Edu QLD Beginner', cursive;" >
+                                        <div class=" mb-5">
+                                            <h1 class="text-black text-xs box px-3  bg-gray-500 font-bold ">New 1</h1>
+                                        </div>
+                                        <div class="">
+                                            <h1 class="text-green-500 font-semibold md:text-6xl text-4xl">Chrome</h1>
+                                        </div>
+                                        <div class="mt-5">
+                                            <p class="box md:w-96 w-full  text-white text-justify md:text-xl text-xm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quia velit
+                                                nostrum omnis! Dolores atque sed quisquam natus. Suscipit officia deserunt
+                                                accusamus voluptates. Illum veritatis beatae vel sapiente laudantium est.</p>
+                                        </div>
+                                        <div class="mt-5">
+                                          <button class="box px-3 bg-gray-500 rounded-md md:text-2xl text-xl">more</button>
+                                          </div>
+
+                                         
+                                   </div>
+                                    <div class="md:mt-0 mt-10 flex justify-center items-center md:inline-block">
+                                        <img src="./src/assets/chrome.png" class="md:w-56 w-32" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                      </div>
+
+                    
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="md:mt-20 mt-44  mb-48" id="contact">
             <div>
                 <div>
                     <div class="md:ml-14 mt-10 mb-10">
-                        <h1 class="text-white md:text-6xl text-5xl ">Conta<span class="text-green-500">ct us</span></h1>
+                        <h1 class="text-white md:text-6xl text-5xl " style="font-family: 'Edu QLD Beginner', cursive;">
+                            Conta<span class="text-green-500">ct us</span></h1>
                     </div>
                     <div class="grid md:grid-cols-2">
                         <div class="md:ml-24 mt-5 ">
                             <div class="mb-5">
-                                <div class="text-white text-xl font-semibold mb-4">
+                                <div class="text-white text-xl font-semibold mb-4"
+                                    style="font-family: 'Edu QLD Beginner', cursive;">
                                     Name
                                 </div>
                                 <div class="">
                                     <input type="text" placeholder="Enter Your Name "
+                                        style="font-family: 'Edu QLD Beginner', cursive;"
                                         class="bg-black md:w-96 w-72 h-10  placeholder-gray-500 p-2 hover:focus:ring-4 ring-sky-500 rounded-lg border-4 border-green-500 text-white">
                                 </div>
                             </div>
 
                             <div class="mb-5">
-                                <div class="text-white text-xl font-semibold  mb-4">
+                                <div class="text-white text-xl font-semibold  mb-4"
+                                    style="font-family: 'Edu QLD Beginner', cursive;">
                                     Email
                                 </div>
                                 <div class="">
                                     <input type="email" placeholder="Enter Your Email Address "
+                                        style="font-family: 'Edu QLD Beginner', cursive;"
                                         class="bg-black md:w-96 w-72 h-10 placeholder-gray-500 p-2 rounded-lg border-4 hover:focus:ring-4 ring-sky-500 border-green-500 text-white">
                                 </div>
                             </div>
 
                             <div class="mb-5">
-                                <div class="text-white text-xl font-semibold mb-4">
+                                <div class="text-white text-xl font-semibold mb-4"
+                                    style="font-family: 'Edu QLD Beginner', cursive;">
                                     Message
                                 </div>
                                 <div class="">
-                                    <textarea  id="about" name="about" rows="3" 
-                                        class=" md:w-96 w-72 h-20 text-white  bg-black p-2 shadow-sm focus:ring-indigo-500 block  rounded-lg border-4 hover:focus:ring-4 ring-sky-500 border-green-500  placeholder-gray-500" placeholder="you@example.com"></textarea>             
-                                </div>  
+                                    <textarea id="about" name="about" rows="3"
+                                        style="font-family: 'Edu QLD Beginner', cursive;"
+                                        class=" md:w-96 w-72 h-20 text-white  bg-black p-2 shadow-sm focus:ring-indigo-500 block  rounded-lg border-4 hover:focus:ring-4 ring-sky-500 border-green-500  placeholder-gray-500"
+                                        placeholder="you@example.com"></textarea>
+                                </div>
                                 <div class="mt-5 ">
-                                <button class="text-black box px-3 py-2 bg-green-500  rounded-lg font-semibold text-xm">
-                                    submit
-                                </button>
+                                    <button
+                                        class="text-black box px-3 py-2 bg-green-500  rounded-lg font-semibold text-xm"
+                                        style="font-family: 'Edu QLD Beginner', cursive;">
+                                        submit
+                                    </button>
+                                </div>
+
+                                <div>
+                                    <p class="text-gray-400 md:mr-40 mt-8 text-justify"
+                                        style="font-family: 'Edu QLD Beginner', cursive;"> Lorem ipsum dolor sit, amet
+                                        consectetur adipisicing elit. !</p>
+                                </div>
                             </div>
 
-                            <div>
-                                <p class="text-gray-400 md:mr-40 mt-8 text-justify">   Lorem ipsum dolor sit, amet consectetur adipisicing elit. !</p>
-                            </div>
-                            </div>
 
-                            
                         </div>
 
                         <div class="mt-10">
@@ -924,7 +1112,8 @@
                     </div>
 
                     <div class="mt-20 mb-7">
-                        <h1  class=" text-center text-2xl text-white">Design by <span class="text-green-500"> Vaghela Ajitkumar</span></h1>
+                        <h1 class=" text-center text-2xl text-white" style="font-family: 'Edu QLD Beginner', cursive;">
+                            Design by <span class="text-green-500"> Vaghela Ajitkumar</span></h1>
                     </div>
 
                     <div class="mt-4">------------------------------</div>
@@ -936,15 +1125,31 @@
             </div>
         </div>
     </div>
-   
+
     </div>
 
 
-<script>
+    <!--swipper js start here-->
 
-   
-    
-</script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+          var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
 
 
 
